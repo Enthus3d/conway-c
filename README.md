@@ -1,2 +1,4 @@
 # conway-c
-Project simulating Conway's Game of Life, written in C. Future analysis of the simulation may be uploaded (Hashlife).
+Project simulating Conway's Game of Life, written in C. Future analysis of the simulation may be uploaded (Hashlife)
+
+Will be implementing a hash set to allow for the implementation of infinite recursion of the Game of Life. Otherwise, lookups of adjacent cells, whether living or dead would become very slow as the number of entries increases. Hash will be implemented first then life which will contain the core mechanics of the actual game of life processes, taking in a hash set of the living cells in the current state and then outputting one of the next state, then finally grid will be implemented, which will contain the GUI implementation of the program with the following capabilities: pause, play, slower speed, faster speed, infinite scrolling grid, interactive grid cells to alternate between living and dead on the click of the mouse, and a number of presets of interesting Game of Life examples.
